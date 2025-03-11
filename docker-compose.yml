@@ -21,6 +21,7 @@ services:
       ENABLE_COMMAND_BLOCK: "true"
       EXISTING_OPS_FILE: "MERGE"
       CURSEFORGE_FILES: |-
+        1119874
         419699
         243707
         574123
@@ -39,7 +40,8 @@ services:
         422301
         618298
         237307
-        1119874
+        324717
+        583345
       CF_FILENAME_MATCHER: "1.21.1"
       MEMORY: 4G
       CF_OVERRIDES_EXCLUSIONS: |

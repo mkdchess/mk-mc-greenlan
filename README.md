@@ -23,6 +23,8 @@ This is a small collection of QoL mods for Java Minecraft 1.21.1. This repo is f
 | 422301     | Sophisticated Backpacks       |
 | 618298     | Sophisticated Core            |
 | 237307     | Cosmetic Armor Reworked       |
+| 324717     | Jade                          |
+| 583345     | Jade Addons (Neo/Forge)       | 
 
 ## 🔄 Client & Server Mods
 
