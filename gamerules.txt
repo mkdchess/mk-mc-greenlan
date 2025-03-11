@@ -1,0 +1,6 @@
+/gamerule playersSleepingPercentage 1
+/ftbranks node add member ftbessentials.rtp.cooldown 15
+/ftbranks node add member ftbessentials.home.cooldown 1
+/ftbranks node add member ftbessentials.home.max 10
+/ftbranks node add member ftbessentials.home.warmup 3
+/ftbranks node add member ftbessentials.spawn.cooldown 30

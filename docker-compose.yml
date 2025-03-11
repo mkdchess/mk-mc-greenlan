@@ -1,0 +1,50 @@
+services:
+  mc:
+    image: itzg/minecraft-server:latest
+    tty: true
+    stdin_open: true
+    ports:
+      - "${GAME_PORT}:25565"
+    environment:
+      EULA: true
+      TYPE: NEOFORGE
+      VERSION: 1.21.1
+      NEOFORGE_VERSION: 21.1.133
+      CF_API_KEY: ${CF_API_KEY}
+      OPS: ${OPS}
+      MAX_PLAYERS: ${MAX_PLAYERS}
+      MOTD: ${MOTD}
+      TZ: ${TZ}
+      RCON_CMDS_STARTUP: ${RCON_CMDS_STARTUP}
+      ENABLE_COMMAND_BLOCK: "true"
+      EXISTING_OPS_FILE: "MERGE"
+      CURSEFORGE_FILES: |-
+        419699
+        243707
+        574123
+        314906
+        410811
+        1103259
+        404465
+        314905
+        404468
+        32274
+        268560
+        345425
+        268566
+        268567
+        634062        
+        422301
+        618298
+        237307
+        1119874
+      CF_FILENAME_MATCHER: "1.21.1"
+      MEMORY: 4G
+      CF_OVERRIDES_EXCLUSIONS: |
+        shaderpacks/**
+      DIFFICULTY: "2"
+      ALLOW_FLIGHT: "true"
+    volumes:
+      - mc-greenlan-data:/data
+volumes:
+   mc-greenlan-data:
