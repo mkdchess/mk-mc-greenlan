@@ -45,8 +45,8 @@ services:
         531761
         245755
         361276
-      CF_FILENAME_MATCHER: "1.21.1"
-      MEMORY: 4G
+      CF_FILENAME_MATCHER: "1.21"
+      MEMORY: 6G
       CF_OVERRIDES_EXCLUSIONS: |
         shaderpacks/**
       DIFFICULTY: "2"
