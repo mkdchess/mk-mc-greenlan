@@ -1,6 +1,5 @@
 services:
   mc:
-    container_name: mc-greenlan
     image: itzg/minecraft-server:latest
     tty: true
     stdin_open: true
