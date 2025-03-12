@@ -25,8 +25,10 @@ This is a small collection of QoL mods for Java Minecraft 1.21.1. This repo is f
 | 237307     | Cosmetic Armor Reworked       |
 | 324717     | Jade                          |
 | 583345     | Jade Addons (Neo/Forge)       |
+| 531761     | Balm                          |
 | 245755     | Waystones                     |
 | 361276     | Lootr                         |
+
 
 ## 🔄 Client & Server Mods
 
